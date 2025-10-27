@@ -16,7 +16,7 @@ export const projectsData = [
     description: "Personal portfolio website highlighting my background, experiences, and projects.",
     tags:"JavaScript, React, HTML, CSS",
     demo: "#",
-    source: "",
+    source: "https://github.com/Danieljin2001/PortfolioWebsite",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ export const projectsData = [
     title: "Self-Checkout Sim",
     description: "Java self-checkout system simulation featuring a GUI, UML design, OOP prinicples and JUnit testing.",
     tags:"Java, JUnit",
-    demo: "sd",
+    demo: "",
     source: "https://github.com/Danieljin2001/SENG300",
 
   },
@@ -64,8 +64,8 @@ export const projectsData = [
     title: "CyberWar",
     description:"A local 1v1 browser game of “War” themed around cybersecurity vs. cyberthreats. A fun way to learn more about cybersecurity.",
     tags: "JavaScript, HTML, CSS",
-    demo: "https://danieljin2001.github.io/index.html",
-    source: "https://github.com/Danieljin2001/Danieljin2001.github.io",
+    demo: "https://cyberwarwebsite.netlify.app/",
+    source: "https://github.com/Danieljin2001/CyberWarWebsite",
 
   },
   
