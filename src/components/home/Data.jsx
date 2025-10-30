@@ -86,7 +86,7 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">I'm <span ref={el}></span></h3>
-        <p className="home__description">Hello! I'm a software developer based in Calgary Alberta, and I have a strong passion for coding. Welcome to my website!</p>
+        <p className="home__description">Hello! I'm a software developer based in Calgary, Alberta and I have a strong passion for coding. Welcome to my website!</p>
 
         <a href="#contact" className="button button--flex">
             Say Hello

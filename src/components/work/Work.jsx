@@ -45,17 +45,20 @@ const Work = () => {
             return (
               
               <SwiperSlide className='work__card' key={id}>
-                <img src={image} alt="" className='work__img'/>
+                <a href={source} target="__blank"><img src={image} alt="" className='work__img'/></a>
                 <div className='title__div'>
                   <h3 className="work__title">{title}</h3>
-                  <a href={demo} 
+                  {/* <a href={demo} 
                     className="demo__button" 
                     target='__blank'
                     hidden={!demo || demo.trim() === ""}
-                  >Demo</a>
+                  >Demo</a> */}
                 </div>
                 <a href={source} className="work__button" target='__blank'>
-                  Source <i class='bxr bx-arrow-right-stroke work__button-icon'  ></i> 
+                  <u>Source</u> <i class="fa-brands fa-github work__button-icon"></i>
+                </a>
+                <a href={demo} style={{ visibility: demo === "" ? "hidden" : "visible" }} className="work__button" target='__blank'>
+                  <u>Preview</u> <i class="fa-solid fa-square-arrow-up-right work__button-icon"></i>
                 </a>
                   
                 <div className='description__div'>

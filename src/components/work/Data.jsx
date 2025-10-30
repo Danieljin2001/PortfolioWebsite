@@ -13,7 +13,7 @@ export const projectsData = [
     id: 0,
     image: portfolio,
     title: "Portfolio Website",
-    description: "Personal portfolio website highlighting my background, experiences, and projects. Deployed using automatic CI/CD pipeline",
+    description: "Personal portfolio website highlighting my background, experiences, and projects. Deployed using automatic CI/CD pipeline.",
     tags:"JavaScript, React, HTML, CSS, CI/CD",
     demo: "#",
     source: "https://github.com/Danieljin2001/PortfolioWebsite",

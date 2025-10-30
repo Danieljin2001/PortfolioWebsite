@@ -26,7 +26,9 @@ const Contact = () => {
                 <h3 className="contact__title">Links</h3>
                 <div className="contact__info">
                     <div className="contact__card">
+                        <a href="mailto:djin2001@gmail.com" >
                         <i class='bxr  bx-envelope-alt contact__card-icon'  ></i> 
+                        </a>
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">djin2001@gmail.com</span>
                         <a href="mailto:djin2001@gmail.com" className="contact__button" >Send Email
@@ -34,21 +36,24 @@ const Contact = () => {
                             <i class='bxr bx-arrow-right-stroke contact__button-icon'  ></i>
                         </a>
                     </div>
-
-                    <div className="contact__card">
+                    
+                    <div className="contact__card" >
+                        <a href="https://github.com/Danieljin2001" target='__blank'>
                         <i class="uil uil-github-alt contact__card-icon"></i>
+                        </a>
                         <h3 className="contact__card-title-other">GitHub</h3>
                         
                         <a href="https://github.com/Danieljin2001" className="contact__button" target="_blank">Check out
                          
                             <i class='bxr bx-arrow-right-stroke contact__button-icon'  ></i>
                         </a>
+                        
                     </div>
 
                     <div className="contact__card">
-                        
+                        <a href="https://www.linkedin.com/in/daniel-jin-17308a226/" target='__blank'>
                        <i class="fa-brands fa-linkedin contact__card-icon"></i>
-                   
+                        </a>
                         
                         <h3 className="contact__card-title-other">LinkedIn</h3>
                         <a href="https://www.linkedin.com/in/daniel-jin-17308a226/" className="contact__button" target="_blank">Connect
