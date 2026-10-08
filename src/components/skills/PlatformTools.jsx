@@ -33,9 +33,10 @@ const PlatformTools = () => {
                 </div>
 
                 <div className="skills__data">
-                    
-                    <div style={{ visibility: "hidden" }}>
-                        <h3 className="skills__name">HIDDEN</h3>
+                    <i class='bxr  bxs-badge-check'></i>
+                    <div>
+                        <h3 className="skills__name">Github</h3>
+
                     </div>
                 </div>
 

@@ -16,7 +16,9 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I have recently graduated and I am open to work! I enjoy all types of development, but strongly favour backend development and database management. I'm also willing to relocate!
+                    I am a <b>full-stack</b> developer specializing in the <b>.NET</b> and <b>Angular</b> stack, 
+                    with experience building robust solutions across both <b>SQL</b> and <b>NoSQL</b> databases. 
+                    I am currently open to new opportunities and fully willing to relocate.
                 </p>
 
                 <a href={CV} className="button button--flex" target="_blank">
