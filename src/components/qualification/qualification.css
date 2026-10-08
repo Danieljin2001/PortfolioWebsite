@@ -31,7 +31,13 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+    margin-top: 1.5rem;
+}
 
+.qualification__data_first {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
 }
 
 .qualification__title {
@@ -47,18 +53,20 @@
 .education__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__city__subtitle {
     display:block;
     font-size: var(--tiny-font-size);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__calender {
-    font-size: var(--small-font-size);
+    font-size: 0.75rem;
 }
+
+
 
 .qualification__rounder {
     display: inline-block;
@@ -74,6 +82,18 @@
     height: 100%;
     background-color: var(--text-color);
     transform: translate(6px, -7px);
+    position: relative;
+}
+
+.qualification__data_first .qualification__line::after,
+.qualification__data:not(:last-child) .qualification__line::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 1px;
+    height: 1.5rem;
+    background-color: var(--text-color);
 }
 
 

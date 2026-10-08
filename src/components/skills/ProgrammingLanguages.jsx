@@ -30,7 +30,7 @@ const ProgrammingLanguages = () => {
                  <div className="skills__data">
                     <i class='bxr  bxs-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">SQL</h3>
+                        <h3 className="skills__name">TypeScript</h3>
                     </div>
                 </div>
             </div>
@@ -47,14 +47,14 @@ const ProgrammingLanguages = () => {
                 <div className="skills__data">
                     <i class='bxr  bxs-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">C</h3>
+                        <h3 className="skills__name">VB</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
                     <i class='bxr  bxs-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">PHP</h3>
+                        <h3 className="skills__name">SQL</h3>
                     </div>
                 </div>
 

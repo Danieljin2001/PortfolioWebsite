@@ -9,7 +9,7 @@ const IDEOS = () => {
                 <div className="skills__data">
                     <i class='bxr  bxs-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">Eclipse</h3>
+                        <h3 className="skills__name">SSMS</h3>
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@ const IDEOS = () => {
                 <div className="skills__data">
                     <i class='bxr  bxs-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">VS 2019 </h3>
+                        <h3 className="skills__name">Visual Studio</h3>
                     </div>
                 </div>
 
